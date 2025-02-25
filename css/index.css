@@ -1,0 +1,67 @@
+:root {
+  margin: 0;
+  padding: 0;
+  font-family: "Outfit", serif;
+  --slate-900: hsl(218, 44%, 22%);
+  --slate-500: hsl(216, 15%, 48%);
+  --slate-300: hsl(212, 45%, 89%);
+  --white: hsl(0, 0%, 100%);
+  --link-color: hsl(228, 45%, 44%);
+  --medium-text-size: 1.375rem;
+  --medium-text-line-height: 120%;
+  --medium-text-spacing: 0;
+  --regular-text-size: 0.9375rem;
+  --regular-text-spacing: 0.0125rem;
+  --regular-text-line-height: 140%;
+  --big-spacing: 2.5rem;
+  --medium-spacing: 1.5rem;
+  --small-spacing: 1rem;
+  background-color: var(--slate-300);
+}
+
+p {
+  margin: 0;
+  text-align: center;
+}
+
+.content-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.medium-text {
+  font-size: var(--medium-text-size);
+  letter-spacing: var(--medium-text-spacing);
+  line-height: var(--medium-text-line-height);
+  font-weight: 700;
+}
+
+.regular-text {
+  font-size: var(--regular-text-size);
+  letter-spacing: var(--regular-text-spacing);
+  line-height: var(--regular-text-line-height);
+  font-weight: 400;
+}
+
+.attribution {
+  font-size: 0.6875rem;
+  text-align: center;
+}
+
+.attribution a {
+  color: var(--link-color);
+}
+
+.qr-card-container {
+  width: fit-content;
+  height: fit-content;
+  border-radius: 20px;
+  background-color: var(--white);
+  padding: 1rem 1rem 2.5rem;
+  margin-top: var(--big-spacing);
+}
+
+.qr-image {
+  padding-bottom: var(--medium-spacing);
+}
