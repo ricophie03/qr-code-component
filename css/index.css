@@ -35,6 +35,7 @@ p {
   letter-spacing: var(--medium-text-spacing);
   line-height: var(--medium-text-line-height);
   font-weight: 700;
+  padding-top: var(--medium-spacing);
 }
 
 .regular-text {
@@ -63,5 +64,5 @@ p {
 }
 
 .qr-image {
-  padding-bottom: var(--medium-spacing);
+  border-radius: 10px;
 }
